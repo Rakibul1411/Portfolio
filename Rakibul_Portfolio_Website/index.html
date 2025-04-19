@@ -732,6 +732,9 @@
   <!-- Vercel Analytics -->
   <script defer src="/_vercel/insights/script.js"></script>
 
+  <!-- Vercel Speed Insights -->
+  <script defer src="/_vercel/speed-insights/script.js"></script>
+
   <script src="js/jquery.min.js"></script>
   <script src="js/jquery-migrate-3.0.1.min.js"></script>
   <script src="js/popper.min.js"></script>
@@ -747,18 +750,5 @@
   
   <script src="js/main.js"></script>
     
-  <script>
-    // Measure Web Vitals (optional)
-    if ('webVitals' in window) {
-      window.addEventListener('load', () => {
-        const { getCLS, getFID, getLCP, getFCP, getTTFB } = window.webVitals;
-        getCLS(console.log);
-        getFID(console.log);
-        getLCP(console.log);
-        getFCP(console.log);
-        getTTFB(console.log);
-      });
-    }
-  </script>
   </body>
 </html>
